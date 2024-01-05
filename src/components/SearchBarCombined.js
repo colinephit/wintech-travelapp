@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Button from '@mui/material/Button';
-import SearchBarCity from './SearchBar';
+import SearchBarCity from './SearchBarCity';
 import SearchBarActivity from './SearchBarActivity';
 import SearchIcon from '@mui/icons-material/Search';
 
@@ -46,11 +46,3 @@ const Right = styled.div`
     padding: 7vh;
     height: 50vh;
 `
-const Title = styled.div`
-    font-weight: 700;
-    font-size: 20px;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 1vh;
-    color: #000000;
-    `
