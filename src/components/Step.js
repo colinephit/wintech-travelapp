@@ -34,7 +34,6 @@ const Right = styled.div`
 `
 
 const Title = styled.div`
-    margin-bottom: 2vh;
     font-weight: 500;
     font-size:18px;
     color: #feb236;

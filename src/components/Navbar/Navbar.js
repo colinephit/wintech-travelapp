@@ -29,7 +29,7 @@ function Navbar() {
     <Nav>
       <Left>
         <a href="/">
-          <Logo src={require("../../assets/TravelGo.png")} />
+          <Logo src={require("../../assets/TravelGo.png")}/>
         </a>
       </Left>
       <Navigation />
@@ -53,7 +53,7 @@ function Navbar() {
     <FixedNav>
       <Left>
         <a href="/">
-          <Logo src={require("../../assets/TravelGo.png")} />
+          <Logo src={require("../../assets/TravelGo.png")}/>
         </a>
       </Left>
       <Navigation />

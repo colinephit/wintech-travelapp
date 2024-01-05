@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import footerLogo from '../assets/footer-logo.svg'
+//import footerLogo from '../assets/footer-logo.svg'
 import appStore from '../assets/appstore.svg'
 import playStore from '../assets/playstore.svg'
 import '../styles/footer.css'
@@ -10,8 +10,7 @@ function Footer() {
     <Container style={{background: '#333'}}>
 
         <Left>
-          <Logo src={footerLogo} alt='' /> 
-          <LeftText>Book your trip in minute, get full Control for much longer.</LeftText>
+          <Logo src={require("../assets/TravelGo_big.png")} alt='WhereToGo' /> 
         </Left>
 
         <Mid className='links'>
@@ -56,20 +55,20 @@ const Container = styled.div`
   align-items: center;
   @media (max-width: 480px) {
     // overflow: hidden;
-    padding: 32px 16px;
+    padding: 20px 16px;
     width: 100%;
     display: grid;
   }
 `;
 
 const Left = styled.div`
-  padding: 1vh 2vw;
+  padding: 1vh 5vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   flex: 0.2;
-  height: 50vh;
+  height: 30vh;
   font-size: 14px;
   @media (max-width: 480px) {
     width: 100%;
@@ -82,7 +81,7 @@ const Mid = styled.div`
   justify-content: center;
   align-items: center;
   flex: 0.6;
-  height: 50vh;
+  height: 30vh;
   @media (max-width: 480px) {
     width: 100%;
     height: 100%;
@@ -99,7 +98,7 @@ const Right = styled.div`
   justify-content: center;
   align-items: center;
   flex: 0.2;
-  height: 50vh;
+  height: vh;
   @media (max-width: 480px) {
     width: 100%;
     height: 100%;
@@ -110,22 +109,21 @@ const Right = styled.div`
 `;
 
 const Logo = styled.img`
-  height: 6.5vh;
+  height: 20vh;
   @media (max-width: 480px) {
     margin: 0;
   }
 `;
 
-const LeftText = styled.p`
-  margin-top: 6vh;
-  width: 20vw;
-  color: #647696;
-  @media (max-width: 480px) {
-    margin: 0;
-    width: 100%;
-    text-align: center;
-  }
-`;
+// const LeftText = styled.p`
+//   width: 20vw;
+//   color: #FFFFF0;
+//   @media (max-width: 480px) {
+//     margin: 0 10;
+//     width: 100%;
+//     text-align: center;
+//   }
+// `;
 
 const RightText = styled.p`
   font-size: 14px;

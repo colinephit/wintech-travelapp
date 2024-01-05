@@ -7,9 +7,9 @@ function Cover() {
       <CoverBody>
         <CoverTitle>Find your ideal</CoverTitle>
         <CoverTitle>travel destination now</CoverTitle>
+        <CoverText>Planning your dream trip does not have to be a hassle.</CoverText>
         <CoverTextu>Use our AI-powered search engine to find your next holiday spot.</CoverTextu>
-        <CoverText>Your satisfaction is our main priority</CoverText>
-        <CoverButton href='/'>Discover More</CoverButton>
+        <a href='#search-bar'><CoverButton>Start Searching Now</CoverButton></a>
       </CoverBody>
       <BottomFade />
     </Container>
@@ -64,11 +64,11 @@ const CoverText = styled.div`
   color: white;
   font-weight: 600;
   line-height: 35px;
+  padding-top: 5vh;
 `
 
 const CoverTextu = styled.div` // cover text upper
   color: white;
-  padding-top: 5vh;
   @media (max-width: 480px) {
     padding-top: 2vh;
   }

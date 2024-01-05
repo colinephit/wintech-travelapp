@@ -6,7 +6,7 @@ const Nav  = styled.ul`
      justify-content: space-between;
      align-items: center;
      flex:1;
-     margin: 0 2rem;
+     
      @media (max-width:600px) {
 
      display: none;

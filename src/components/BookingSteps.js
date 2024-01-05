@@ -12,7 +12,7 @@ function BookingSteps() {
                 <Step 
                 title='Choose your ideal holiday features'
                 text='Select your preferred type of activities, budget, travel time and weather.'
-                image='step1.png'
+                image='step1_new.png'
                 />
                 <Step 
                 title='Let our search engine do the work'
@@ -49,15 +49,16 @@ const Container = styled.div`
 
 const Title = styled.div`
     font-weight: 700;
-    font-size: 25px;
+    font-size: 50px;
     width: 100%;
     text-align: center;
+    margin-top: 10vh;
     margin-bottom: 1vh;
     color: #f0f0f0;
 `
 
 const TitleMini = styled.div`
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 400;
     margin-bottom: 5vh;
     color: #feb236;

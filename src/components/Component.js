@@ -10,21 +10,24 @@ import Packages from './Packages';
 import Reviews from './Reviews';
 import Service from './Service';
 import ServiceStats from './ServiceStats';
-import Subscription from './Subscription';
+//import Subscription from './Subscription';
 import Footer from './Footer';
+//import SearchBarCity from './SearchBarCity';
+//import SearchBarActivity from './SearchBarActivity';
+import SearchBarCombined from './SearchBarCombined';
 
 function Component() {
   return (
     <div className="App">
       <Navbar />
       <Cover />
+      <BookingSteps />
+      <SearchBarCombined />
       <Service />
       <ServiceStats />
       <Destinations />
       <Packages />
-      <BookingSteps />
       <Reviews />
-      <Subscription />
       <Footer />
     </div>
   );
