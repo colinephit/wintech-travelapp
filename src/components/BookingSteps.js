@@ -52,15 +52,13 @@ const Title = styled.div`
     font-size: 50px;
     width: 100%;
     text-align: center;
-    margin-top: 10vh;
-    margin-bottom: 1vh;
+    margin-top: 15vh;
     color: #f0f0f0;
 `
 
 const TitleMini = styled.div`
     font-size: 30px;
     font-weight: 400;
-    margin-bottom: 5vh;
     color: #feb236;
     @media (max-width: 480px) {
         margin: 0;

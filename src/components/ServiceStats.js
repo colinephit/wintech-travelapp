@@ -8,13 +8,13 @@ function ServiceStats() {
       <Container>
         <CoverTitleu>We always try to give you</CoverTitleu>
         <CoverTitle>the best service</CoverTitle>
-        <CoverTextu>We always try to make our customer Happy. We provide all kind of</CoverTextu>
-        <CoverText>facilities. Your Satisfaction is our main priority.</CoverText>
+        <CoverTextu>With WhereToGo's many years of serving happy customers, we are confident that</CoverTextu>
+        <CoverText>you will be able to plan your next holiday with us.</CoverText>
         <StatsCards>
-            <StatsCard count='15+' title ='Years of Experience' image='calendar.png' />
+            <StatsCard count='100k+' title ='Searchers' image='calendar.png' />
             <StatsCard count='15k+' title ='Happy Travelers' image='chart.png' />
             <StatsCard count='650+' title ='Places Visited' image='location.png' />
-            <StatsCard count='2k+' title ='Travel History' image='history.png' /> 
+            <StatsCard count='60k+' title ='Trips Planned' image='history.png' /> 
         </StatsCards>
         <Background src={require('../assets/world-map.png')} alt='background' />
     </Container>
@@ -51,7 +51,7 @@ const CoverTitleu = styled.div` // cover title upper text
 `
 
 const CoverTitle = styled.div`
-  color: black;
+  color: white;
   font-weight: 600;
   font-size: 6vh;
   text-align: center;

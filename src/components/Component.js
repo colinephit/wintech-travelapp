@@ -8,7 +8,7 @@ import Destinations from './Destinations';
 import Navbar from './Navbar/Navbar';
 import Packages from './Packages';
 import Reviews from './Reviews';
-import Service from './Service';
+// import Service from './Service';
 import ServiceStats from './ServiceStats';
 //import Subscription from './Subscription';
 import Footer from './Footer';
@@ -23,7 +23,6 @@ function Component() {
       <Cover />
       <BookingSteps />
       <SearchBarCombined />
-      <Service />
       <ServiceStats />
       <Destinations />
       <Packages />

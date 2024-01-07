@@ -78,9 +78,10 @@ const CoverButton = styled.a`
 
 cursor:pointer;
 clear:both; 
-border-radius: 3px;
+border-radius: 15px;
 padding:20px 60px; 
 margin-top:4vh;
+font-size: 3vh;
 display:inline-block;
     color:white;
     transition:all 0.8s, color 0.3s 0.3s;

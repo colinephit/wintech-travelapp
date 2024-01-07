@@ -9,9 +9,9 @@ function Destinations() {
         <Body>
         <Background src={require('../assets/world-map-2.png')} />
             <DestinationCards>
-                <DestinationCard place={'Thailand'} activities='20+ Spots' duration={'2D & 3N'} image='thailand.png' />
-                <DestinationCard place={'Indonesia'} activities='25+ Spots' duration={'3D & 3N'} image='indonesia.png' />
-                <DestinationCard place={'New Zealand'} activities='29+ Spots' duration={'3D & 2N'} image='newzealand.png' />
+                <DestinationCard place={'Thailand'} activities='Treat yourself to a spa, or visit temples of cultural significance' duration={'2D & 3N'} image='thailand.png' />
+                <DestinationCard place={'Indonesia'} activities='Visit its iconic beaches or go close up with wildlife' duration={'3D & 3N'} image='indonesia.png' />
+                <DestinationCard place={'New Zealand'} activities='For lover of the outdoors, take part in hiking and skydiving' duration={'3D & 2N'} image='newzealand.png' />
             </DestinationCards>
         </Body>
     </Container>

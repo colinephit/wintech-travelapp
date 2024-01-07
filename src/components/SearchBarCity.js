@@ -7,12 +7,12 @@ export default function SearchBar() {
     <Box
       component="form"
       sx={{
-        '& > :not(style)': { m: 1, width: '40ch' }, 
+        '& > :not(style)': { m: 1, width: '70ch' }, 
       }}
       noValidate
-      autoComplete="off"
+      autoComplete="on"
     >
-      <TextField id="outlined-basic" label="Enter your destination city here." variant="outlined" />
+      <TextField id="outlined-basic" label="Enter your destination city and favourite activities here." variant="outlined" />
     </Box>
   );
 }
