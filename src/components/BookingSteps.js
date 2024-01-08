@@ -6,17 +6,17 @@ function BookingSteps() {
   return (
     <Container style={{background: '#333'}}>
         <Title>Plan your dream trip in 3 Easy Steps</Title>
-        <TitleMini>Let our AI-powered search engine do the job.</TitleMini>
+        <TitleMini>Pick your ideal spot from our plethora of choices.</TitleMini>
         <Body>
             <Left>
                 <Step 
                 title='Choose your ideal holiday features'
-                text='Select your preferred type of activities, budget, travel time and weather.'
+                text='Type in your desired activities in your holiday destination.'
                 image='step1_new.png'
                 />
                 <Step 
                 title='Let our search engine do the work'
-                text='Our generative AI-powered search engine will provide a list of suggested destinations and activities that suit your preference.'
+                text='Our generative search engine will provide a list of suggested destinations and activities that suit your preference.'
                 image='step2.png'
                 />
                 <Step 

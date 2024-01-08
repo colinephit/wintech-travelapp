@@ -8,7 +8,7 @@ function Cover() {
         <CoverTitle>Find your ideal</CoverTitle>
         <CoverTitle>travel destination now</CoverTitle>
         <CoverText>Planning your dream trip does not have to be a hassle.</CoverText>
-        <CoverTextu>Use our AI-powered search engine to find your next holiday spot.</CoverTextu>
+        <CoverTextu>Use our search engine to find your next holiday spot.</CoverTextu>
         <a href='#search-bar'><CoverButton>Start Searching Now</CoverButton></a>
       </CoverBody>
       <BottomFade />

@@ -27,7 +27,7 @@ export default function SearchBar() {
       noValidate
       autoComplete="on"
     >
-      <TextField id="outlined-basic" label="Enter your destination city and favourite activities here." variant="outlined" value={input} onChange={(e) => handleChange(e.target.value)}/>
+      <TextField id="outlined-basic" label="Enter your destination city and favourite activities. eg. 'Bowling alleys in Sydney'" variant="outlined" value={input} onChange={(e) => handleChange(e.target.value)}/>
     </Box>
   );
 }
