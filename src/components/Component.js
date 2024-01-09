@@ -12,9 +12,8 @@ import Reviews from './Reviews';
 import ServiceStats from './ServiceStats';
 //import Subscription from './Subscription';
 import Footer from './Footer';
-//import SearchBarCity from './SearchBarCity';
+import SearchBarCity from './SearchBarCity';
 //import SearchBarActivity from './SearchBarActivity';
-import SearchBarCombined from './SearchBarCombined';
 
 function Component() {
   return (
@@ -22,7 +21,7 @@ function Component() {
       <Navbar />
       <Cover />
       <BookingSteps />
-      <SearchBarCombined />
+      <SearchBarCity />
       <ServiceStats />
       <Destinations />
       <Packages />
