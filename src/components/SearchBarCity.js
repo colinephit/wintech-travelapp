@@ -75,6 +75,7 @@ import Box from '@mui/material/Box';
 import styled from 'styled-components'
 import Button from '@mui/material/Button';
 import SearchIcon from '@mui/icons-material/Search';
+import RatingsBar from './RatingsBar';
 
 const GooglePlacesSearch = () => {
   const [query, setQuery] = useState('');
@@ -155,6 +156,8 @@ const Bottom = styled.div`
   flex-grow: 1;  
   background: #D0F0C0;
   padding: 0vh 0vh 0vh 50vh;
+  color: black;
+  font-size: 2vh;
 
   @media (min-width: 769px) {
     width: 70%;  
