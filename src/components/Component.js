@@ -12,7 +12,7 @@ import Reviews from './Reviews';
 import ServiceStats from './ServiceStats';
 //import Subscription from './Subscription';
 import Footer from './Footer';
-import SearchBarCity from './SearchBarCity';
+import GooglePlacesSearch from './SearchBarCity';
 //import SearchBarActivity from './SearchBarActivity';
 
 function Component() {
@@ -21,7 +21,7 @@ function Component() {
       <Navbar />
       <Cover />
       <BookingSteps />
-      <SearchBarCity />
+      <GooglePlacesSearch />
       <ServiceStats />
       <Destinations />
       <Packages />
