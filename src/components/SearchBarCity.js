@@ -101,6 +101,9 @@ const GooglePlacesSearch = () => {
   };
 
   return <Container id='search-bar'>
+    
+          <Title>One search away from your dream destination...</Title>
+
             <Left>
               <Box
                 component="form"
@@ -118,9 +121,10 @@ const GooglePlacesSearch = () => {
         </Right>
         <Bottom>
         {results.map((place) => (
-          <li key={place.place_id}>{place.name} Rating: {place.rating}</li>
+          <li key={place.place_id}>{place.name}, Rating: {place.rating}</li>
         ))}
       </Bottom>
+
     </Container>
 }; 
 
@@ -130,28 +134,37 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   font-size: 16px;
-  margin: 2.5vh;
   height: 100vh;
+  background: #D0F0C0;
+
 `;
 
 const Left = styled.div`
   margin-right: 2vw;
-  padding: 15vh 0vh 0vh 40vh;
+  padding: 6vh 0vh 5vh 50vh;
 `;
 
 const Right = styled.div`
   position: absolute;
   display: flex;
-  padding: 17vh 0vh 0vh 139vh;  
+  padding: 18vh 0vh 0vh 139vh;  
 `;
 
 const Bottom = styled.div`
   width: 100%;  
   flex-grow: 1;  
-  background: rgb(224,224,224);
+  background: #D0F0C0;
   padding: 0vh 0vh 0vh 50vh;
 
   @media (min-width: 769px) {
     width: 70%;  
   }
 `;
+
+const Title = styled.div`
+    font-weight: 700;
+    font-size: 5vh;
+    width: 100%;
+    text-align: center;
+    margin-top: 3vh;
+`

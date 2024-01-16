@@ -6,17 +6,17 @@ function ServiceStats() {
   return (
     <div style={{background: '#333'}}>
       <Container>
-        <CoverTitleu>We always try to give you</CoverTitleu>
-        <CoverTitle>the best service</CoverTitle>
+        <CoverTitleu>Your trusted partner</CoverTitleu>
+        <CoverTitle>in planning your holiday.</CoverTitle>
         <CoverTextu>With WhereToGo's many years of serving happy customers, we are confident that</CoverTextu>
         <CoverText>you will be able to plan your next holiday with us.</CoverText>
         <StatsCards>
-            <StatsCard count='100k+' title ='Searchers' image='calendar.png' />
+            <StatsCard count='100k+' title ='Searches' image='calendar.png' />
             <StatsCard count='15k+' title ='Happy Travelers' image='chart.png' />
             <StatsCard count='650+' title ='Places Visited' image='location.png' />
             <StatsCard count='60k+' title ='Trips Planned' image='history.png' /> 
         </StatsCards>
-        <Background src={require('../assets/world-map.png')} alt='background' />
+        <Background src={require('../assets/searchresultsbg.png')} alt='background' />
     </Container>
     </div>
   )
@@ -40,6 +40,7 @@ const Background = styled.img`
   position: absolute;
   align-self: center;
   max-width: 100vw;
+  z-index: -1;
 `
 const CoverTitleu = styled.div` // cover title upper text
   margin-top: 10vh;
